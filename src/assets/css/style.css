@@ -18,6 +18,20 @@ body {
   color: red;
 }
 
+.faded {
+	animation-name: faded;
+	animation-duration: 1.5s;
+}
+
+@keyframes faded {
+  from {
+	opacity: 0.1;
+  }
+  to {
+	opacity: 1;
+  }
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -938,9 +952,9 @@ textarea:focus {
 }
 
 .do_image_more img{
-    width: 110px;
-    height: 70px;
-    cursor: pointer;
+	width: 110px;
+	height: 70px;
+	cursor: pointer;
   }
 
 .popup_calc_close {
@@ -1098,723 +1112,723 @@ textarea:focus {
 /*Media*/
 @media (max-width: 1400px) {
   .main {
-    background-position: -30rem 0;
+	background-position: -30rem 0;
   }
 }
 
 @media (max-width: 1199px) {
   .header_btn {
-    padding: 1rem 1rem 1rem 5rem;
-    font-size: 1.2rem;
+	padding: 1rem 1rem 1rem 5rem;
+	font-size: 1.2rem;
   }
 
   .header .working_hours_img img {
-    margin-right: 1rem;
+	margin-right: 1rem;
   }
 
   .header .working_hours p {
-    font-size: 1.3rem;
+	font-size: 1.3rem;
   }
 
   .header .working_hours p span {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1.6rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.6rem;
   }
 
   .header .contact_us_wrap a {
-    font-size: 2rem;
+	font-size: 2rem;
   }
 
   .glazing_cold img {
-    width: 90%;
+	width: 90%;
   }
 
   .glazing_warm img {
-    width: 90%;
+	width: 90%;
   }
 
   .glazing ul {
-    padding: 0 2.5rem;
-    padding-right: 0;
+	padding: 0 2.5rem;
+	padding-right: 0;
   }
 
   .glazing_price {
-    padding: 0 2.5rem;
-    padding-right: 0;
+	padding: 0 2.5rem;
+	padding-right: 0;
   }
 
   .glazing_price p {
-    margin-right: 2rem;
+	margin-right: 2rem;
   }
 
   .decoration_item a {
-    font-size: 1.8rem;
+	font-size: 1.8rem;
   }
 
   /*Payment*/
   .payment_img img {
-    margin-right: 1rem;
+	margin-right: 1rem;
   }
 
 }
 
 @media (max-width: 991px) {
   .section_header h2 {
-    font-size: 2.8rem;
+	font-size: 2.8rem;
   }
 
   .header {
-    height: 12rem;
+	height: 12rem;
   }
 
   .header .logo {
-    margin-top: 1rem;
-    display: block;
+	margin-top: 1rem;
+	display: block;
   }
 
   .header .logo p {
-    margin-top: 1rem;
-    display: block;
+	margin-top: 1rem;
+	display: block;
   }
 
   .header_btn_wrap {
-    height: 12rem;
+	height: 12rem;
   }
 
   .header .working_hours {
-    height: 12rem;
+	height: 12rem;
   }
 
   .header .working_hours_img img {
-    margin-right: 1rem;
+	margin-right: 1rem;
   }
 
   .header .working_hours p {
-    font-size: 1.3rem;
+	font-size: 1.3rem;
   }
 
   .header .working_hours p span {
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 1.6rem;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.6rem;
   }
 
   .header .contact_us {
-    height: 12rem;
+	height: 12rem;
   }
 
   .header .contact_us_wrap a {
-    font-size: 1.4rem;
+	font-size: 1.4rem;
   }
 
 
   .header .contact_us_wrap .phone_link {
-    font-size: 1.15rem;
+	font-size: 1.15rem;
   }
 
   .main {
-    background-size: cover;
-    padding: 5rem 0;
-    padding-bottom: 7rem;
+	background-size: cover;
+	padding: 5rem 0;
+	padding-bottom: 7rem;
   }
 
   .main h1 {
-    text-align: center;
-    font-size: 5rem;
+	text-align: center;
+	font-size: 5rem;
   }
 
   .main_features {
-    margin-top: 5rem;
-    margin-bottom: 7rem;
-    text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 7rem;
+	text-align: center;
   }
 
   .glazing_cold img {
-    width: 80%;
+	width: 80%;
   }
 
   .glazing_warm img {
-    width: 80%;
+	width: 80%;
   }
 
   .glazing ul {
-    display: inline-block;
-    padding: 0;
+	display: inline-block;
+	padding: 0;
   }
 
   .glazing_price {
-    padding: 0;
-    text-align: center;
+	padding: 0;
+	text-align: center;
   }
 
   .glazing_price p {
-    margin-right: 10rem;
+	margin-right: 10rem;
   }
 
   .decoration_img img {
-    width: 100%;
+	width: 100%;
   }
 
   .decoration_content {
-    margin-top: 1rem;
+	margin-top: 1rem;
   }
 
   .decoration_content_material img {
-    margin-top: 2rem;
+	margin-top: 2rem;
   }
 
   .decoration_content_material h3 {
-    min-height: auto;
+	min-height: auto;
   }
 
   .decoration_form {
-    margin-top: 3rem;
+	margin-top: 3rem;
   }
 
   .payment_item {
-    text-align: center;
+	text-align: center;
   }
 
   .payment_item h3 {
-    display: block;
+	display: block;
   }
 
   .payment_img {
-    min-height: 7rem;
+	min-height: 7rem;
   }
 
   .sale {
-    padding: 5rem 0;
-    background: #ffffff url(../img/sale/bg.jpg) right center no-repeat;
-    background-size: cover;
+	padding: 5rem 0;
+	background: #ffffff url(../img/sale/bg.jpg) right center no-repeat;
+	background-size: cover;
   }
 
   .sale_title {
-    margin-bottom: 3rem;
-    text-align: center;
+	margin-bottom: 3rem;
+	text-align: center;
   }
 
   .sale_subtitle {
-    margin-bottom: 3rem;
-    text-align: center;
+	margin-bottom: 3rem;
+	text-align: center;
   }
 
   .contacts_info {
-    margin-top: 3rem;
+	margin-top: 3rem;
   }
 
   .feedback_block h3 {
-    display: block;
-    margin-right: 0;
-    margin-bottom: 2rem;
+	display: block;
+	margin-right: 0;
+	margin-bottom: 2rem;
   }
 }
 
 @media (max-width: 767px) {
   .section_header h2 {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
   }
 
   .header {
-    height: auto;
-    padding: 2rem 0;
+	height: auto;
+	padding: 2rem 0;
   }
 
   .header .logo {
-    height: auto;
-    margin-top: 0;
-    display: block;
-    text-align: center;
+	height: auto;
+	margin-top: 0;
+	display: block;
+	text-align: center;
   }
 
   .header .logo_img {
-    display: block;
+	display: block;
   }
 
   .header_btn_wrap {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    display: block;
-    height: auto;
-    text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	display: block;
+	height: auto;
+	text-align: center;
   }
 
   .header_btn_wrap_block {
-    width: 10%;
+	width: 10%;
   }
 
   .header .working_hours {
-    display: block;
-    height: auto;
+	display: block;
+	height: auto;
   }
 
   .header .contact_us {
-    display: block;
-    height: auto;
+	display: block;
+	height: auto;
   }
 
   .main_features_block {
-    margin-bottom: 4rem;
+	margin-bottom: 4rem;
   }
 
   .glazing_cold img {
-    width: 70%;
+	width: 70%;
   }
 
   .glazing_warm img {
-    width: 70%;
+	width: 70%;
   }
 
   .glazing_price p {
-    margin-right: 3rem;
+	margin-right: 3rem;
   }
 
   .decoration_content h3 {
-    min-height: 3.7rem;
+	min-height: 3.7rem;
   }
 
   .guarantees {
-    padding: 3rem 0 1rem;
+	padding: 3rem 0 1rem;
   }
 
   .guarantees h3 {
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-    font-size: 1.5rem;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	font-size: 1.5rem;
   }
 
   .guarantees img {
-    min-height: 7rem;
+	min-height: 7rem;
   }
 
   .payment {
-    padding-bottom: 2rem;
+	padding-bottom: 2rem;
   }
 
   .payment_item h3 {
-    margin-top: 1rem;
-    margin-bottom: 5rem;
+	margin-top: 1rem;
+	margin-bottom: 5rem;
   }
 
   .payment_img {
-    min-height: auto;
+	min-height: auto;
   }
 
   .contacts_info h3 {
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
   }
 
   .contacts_info p {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
   }
 
   .contacts_info a {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
   }
 
   .feedback_block h3 {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
   }
 
   .feedback_block a {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
   }
 
   .footer .copyright {
-    text-align: center;
+	text-align: center;
   }
 
   .footer .copyright p {
-    line-height: 1.2;
+	line-height: 1.2;
   }
 
   .footer .logo {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	text-align: center;
   }
 
   .footer .contacts {
-    padding: 0;
-    margin: auto;
-    /*border: 1px solid red;*/
-    text-align: center;
+	padding: 0;
+	margin: auto;
+	/*border: 1px solid red;*/
+	text-align: center;
   }
 
   .footer .contacts a {
-    /*border: 1px solid blue;*/
-    display: block;
+	/*border: 1px solid blue;*/
+	display: block;
   }
 
   .footer .contacts .phone {
-    font-size: 1.8rem;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #333333;
+	font-size: 1.8rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #333333;
   }
 
   .footer .contacts .email {
-    font-size: 1.4rem;
-    color: #0089cd;
-    text-decoration: underline;
+	font-size: 1.4rem;
+	color: #0089cd;
+	text-decoration: underline;
   }
 }
 
 @media (max-width: 530px) {
   .form {
-    margin-top: 2rem;
-    padding: 1.5rem 2rem;
-    padding-bottom: 3rem;
+	margin-top: 2rem;
+	padding: 1.5rem 2rem;
+	padding-bottom: 3rem;
   }
 
   .form h2 {
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
+	margin-bottom: 1rem;
+	font-size: 1.4rem;
   }
 
   .form h2 span {
-    font-size: 2rem;
+	font-size: 2rem;
   }
 
   .form_input {
-    padding: 2rem 3rem;
-    margin-bottom: 2rem;
+	padding: 2rem 3rem;
+	margin-bottom: 2rem;
   }
 
   .form_input::-webkit-input-placeholder {
-    color: #999;
-    opacity: 1;
-    font-size: 1.3rem;
+	color: #999;
+	opacity: 1;
+	font-size: 1.3rem;
   }
 
   .form_input::-moz-placeholder {
-    color: #999;
-    opacity: 1;
-    font-size: 1.3rem;
+	color: #999;
+	opacity: 1;
+	font-size: 1.3rem;
   }
 
   .form_input:-moz-placeholder {
-    color: #999;
-    opacity: 1;
-    font-size: 1.3rem;
+	color: #999;
+	opacity: 1;
+	font-size: 1.3rem;
   }
 
   .form_input:-ms-input-placeholder {
-    color: #999;
-    opacity: 1;
-    font-size: 1.3rem;
+	color: #999;
+	opacity: 1;
+	font-size: 1.3rem;
   }
 
   .form_input:focus::-webkit-input-placeholder {
-    color: transparent;
+	color: transparent;
   }
 
   .form_input:focus::-moz-placeholder {
-    color: transparent;
+	color: transparent;
   }
 
   .form_input:focus:-moz-placeholder {
-    color: transparent;
+	color: transparent;
   }
 
   .form_input:focus:-ms-input-placeholder {
-    color: transparent;
+	color: transparent;
   }
 
   .form_notice {
-    font-size: 1rem;
+	font-size: 1rem;
   }
 
   .button {
-    padding: 1.7rem 0rem;
-    font-size: 1.5rem;
+	padding: 1.7rem 0rem;
+	font-size: 1.5rem;
   }
 
   .section_header {
-    text-align: center;
-    margin-bottom: 4rem;
+	text-align: center;
+	margin-bottom: 4rem;
   }
 
   .section_header h2 {
-    font-size: 2rem;
+	font-size: 2rem;
   }
 
   .section_header_sub {
-    margin-top: 1rem;
+	margin-top: 1rem;
   }
 
 
 
   .header .working_hours p {
-    font-size: 1.2rem;
+	font-size: 1.2rem;
   }
 
   .header .working_hours p span {
-    font-size: 1.4rem;
+	font-size: 1.4rem;
   }
 
   .header .contact_us_wrap a {
-    font-size: 1.2rem;
+	font-size: 1.2rem;
   }
 
   .header .contact_us_wrap a img {
-    margin-right: 0.5rem;
-    /*width: 10%;*/
+	margin-right: 0.5rem;
+	/*width: 10%;*/
   }
 
   .header .contact_us_wrap .phone_link {
-    font-size: 1.2rem;
+	font-size: 1.2rem;
   }
 
   .main {
-    padding: 3rem 0;
-    padding-bottom: 5rem;
-    background: #ffffff url(../img/main/bg.png) 0 0 no-repeat;
-    background-size: cover;
+	padding: 3rem 0;
+	padding-bottom: 5rem;
+	background: #ffffff url(../img/main/bg.png) 0 0 no-repeat;
+	background-size: cover;
   }
 
   .main h1 {
-    font-size: 3rem;
-    line-height: 1.5;
+	font-size: 3rem;
+	line-height: 1.5;
   }
 
   .main h1 span {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
   }
 
   .main_features {
-    margin-top: 3rem;
-    margin-bottom: 0;
+	margin-top: 3rem;
+	margin-bottom: 0;
   }
 
   .main_features_block {
-    margin-bottom: 4rem;
+	margin-bottom: 4rem;
   }
 
   .glazing {
-    padding: 3rem 0;
+	padding: 3rem 0;
   }
 
   .glazing_cold {
-    margin-top: 2rem;
+	margin-top: 2rem;
   }
 
   .glazing_warm {
-    margin-top: 4rem;
+	margin-top: 4rem;
   }
 
   .glazing_price {
-    padding: 0 1rem;
+	padding: 0 1rem;
   }
 
   .glazing_price p {
-    display: block;
-    margin-right: 0rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    line-height: 1.2;
+	display: block;
+	margin-right: 0rem;
+	margin-bottom: 2rem;
+	font-size: 2rem;
+	line-height: 1.2;
   }
 
   .glazing_price p span {
-    font-size: 1.4rem;
+	font-size: 1.4rem;
   }
 
   .glazing_price_btn {
-    font-size: 1.4rem;
-    padding: 2rem 2rem;
+	font-size: 1.4rem;
+	padding: 2rem 2rem;
   }
 
   .glazing ul {
-    margin-top: 2rem;
-    margin-bottom: 0;
-    padding: 0 1rem;
-    font-size: 1.2rem;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	padding: 0 1rem;
+	font-size: 1.2rem;
   }
 
   .glazing ul li:before {
-    margin-right: 1rem;
+	margin-right: 1rem;
   }
 
   .decoration {
-    padding: 3rem 0;
+	padding: 3rem 0;
   }
 
   .decoration_item a {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
   }
 
   .guarantees h3 {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    font-size: 1.2rem;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+	font-size: 1.2rem;
   }
 
   .payment {
-    padding-top: 3rem;
-    padding-bottom: 0;
+	padding-top: 3rem;
+	padding-bottom: 0;
   }
 
   .payment_item h3 {
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-    font-size: 1.5rem;
+	margin-top: 1rem;
+	margin-bottom: 4rem;
+	font-size: 1.5rem;
   }
 
   .payment_img {
-    min-height: auto;
+	min-height: auto;
   }
 
   .sale {
-    padding: 3rem 0 5rem;
+	padding: 3rem 0 5rem;
   }
 
   .sale_title {
-    font-size: 3rem;
+	font-size: 3rem;
   }
 
   .sale_subtitle {
-    font-size: 1.8rem;
-    line-height: 1.4;
+	font-size: 1.8rem;
+	line-height: 1.4;
   }
 
   .sale .eTimer {
-    font-size: 1rem;
+	font-size: 1rem;
   }
 
   .contacts {
-    padding: 3rem 0;
+	padding: 3rem 0;
   }
 
   .feedback {
-    padding: 3rem 0 4rem;
+	padding: 3rem 0 4rem;
   }
 
   .feedback_block h3 {
-    font-size: 2rem;
+	font-size: 2rem;
   }
 
   .feedback_block a {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
   }
 
   .popup_content,
   .popup_engineer_content,
   .popup_calc_end_content {
-    width: 31rem;
+	width: 31rem;
   }
 
   .popup_close,
   .popup_engineer_close,
   .popup_calc_end_close {
-    position: absolute;
-    top: -1rem;
-    right: 1rem;
-    font-size: 4rem;
-    color: #000000;
-    border: none;
-    background: transparent;
+	position: absolute;
+	top: -1rem;
+	right: 1rem;
+	font-size: 4rem;
+	color: #000000;
+	border: none;
+	background: transparent;
   }
 
   .popup_calc_close {
-    position: absolute;
-    top: -1rem;
-    right: 1rem;
-    font-size: 4rem;
-    color: #000000;
-    border: none;
-    background: transparent;
+	position: absolute;
+	top: -1rem;
+	right: 1rem;
+	font-size: 4rem;
+	color: #000000;
+	border: none;
+	background: transparent;
   }
 
   .popup_calc_content {
-    width: 42rem;
+	width: 42rem;
   }
 
   .popup_calc_content h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
+	margin-bottom: 2rem;
+	font-size: 2rem;
   }
 
   .popup_calc_content h3 {
-    font-size: 1.7rem;
-    margin-bottom: 2rem;
+	font-size: 1.7rem;
+	margin-bottom: 2rem;
   }
 
   .popup_calc_content .balcon_icons {
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
   }
 
   .popup_calc_content .balcon_icons img {
-    width: 20%;
+	width: 20%;
   }
 
   .popup_calc_content .big_img img {
-    margin-bottom: 2rem;
-    width: 25rem;
+	margin-bottom: 2rem;
+	width: 25rem;
   }
 
   .popup_calc_content #type1 {
-    display: inline-block;
+	display: inline-block;
   }
 
   .popup_calc_button {
-    padding: 1rem 5rem;
+	padding: 1rem 5rem;
   }
 
   .popup_calc_profile_content {
-    width: 31rem;
-    padding: 1rem 1rem 4rem;
+	width: 31rem;
+	padding: 1rem 1rem 4rem;
   }
 
   .popup_calc_profile_content h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
+	margin-bottom: 2rem;
+	font-size: 2rem;
   }
 
   .popup_calc_profile_content h3 {
-    font-size: 1.7rem;
-    margin-bottom: 2rem;
+	font-size: 1.7rem;
+	margin-bottom: 2rem;
   }
 
   .popup_calc_profile_content select {
-    margin-bottom: 1rem;
-    outline: none;
+	margin-bottom: 1rem;
+	outline: none;
   }
 
   .popup_calc_profile_content img {
-    width: 20%;
+	width: 20%;
   }
 
   .popup_calc_profile_close {
-    position: absolute;
-    top: -1rem;
-    right: 1rem;
-    font-size: 4rem;
-    color: #000000;
-    border: none;
-    background: transparent;
+	position: absolute;
+	top: -1rem;
+	right: 1rem;
+	font-size: 4rem;
+	color: #000000;
+	border: none;
+	background: transparent;
   }
 
   .popup_calc_profile_button {
-    padding: 1rem 5rem;
+	padding: 1rem 5rem;
   }
 }
 
 /* small devices, tablets */
 @media only screen and (max-width: 768px) {
   .animated {
-    /*css transitions*/
-    -webkit-transition-property: none !important;
-    transition-property: none !important;
-    /*css transforms*/
-    -webkit-transform: none !important;
-    transform: none !important;
-    /*css animations*/
-    -webkit-animation: none !important;
-    animation: none !important;
+	/*css transitions*/
+	-webkit-transition-property: none !important;
+	transition-property: none !important;
+	/*css transforms*/
+	-webkit-transform: none !important;
+	transform: none !important;
+	/*css animations*/
+	-webkit-animation: none !important;
+	animation: none !important;
   }
 }
