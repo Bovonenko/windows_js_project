@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
         type: 'tree',
         profile: ''
     };
-    let deadline = '2022-07-02';
+    let deadline = '2022-09-09';
 
     changeModalState(modalState);
     modals(modalState);

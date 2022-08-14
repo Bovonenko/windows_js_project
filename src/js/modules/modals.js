@@ -78,7 +78,7 @@ const modals = (state) => {
         div.style.visibility = 'hidden';
 
         document.body.append(div);
-        let scrollWidth = div.offsetWidth() -  div.clientWidth();
+        let scrollWidth = div.offsetWidth - div.clientWidth;
         div.remove();
 
         return scrollWidth;
